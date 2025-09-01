@@ -56,7 +56,7 @@ Find and replace all instances of `your-domain.com` and `@your_twitter` with you
 
 ### **Step 3: Replace Static Assets**
 
-*   **Avatar:** Replace `/assets/img/avatar.png` with your own photo.
+*   **Avatar:** Replace `/assets/img/avatar.webp` with your own photo.
 *   **Favicon:** (Optional) Add your own favicon files to the `/assets/img/` directory and link them in the `<head>` of the HTML files.
 *   **PDF Resume:** Replace `/assets/docs/resume.pdf` with your generated PDF.
 
@@ -82,3 +82,24 @@ The PDF resume is generated using a `.typ` file, which is a modern, scriptable t
 ---
 
 ## 📁 Project Structure
+
+The repository is structured as follows:
+
+```bash
+.
+├── assets
+│   ├── css
+│   ├── docs
+│   ├── img
+│   └── json
+├── en
+│   ├── index.html
+│   └── resume-en.json
+├── es
+│   ├── index.html
+│   └── resume-es.json
+├── README.md
+├── typts
+   └── resume.typ
+
+```

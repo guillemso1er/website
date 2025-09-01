@@ -1,3 +1,6 @@
+@import "tailwindcss";
+
+
 /* Base CSS fallback so site is fully functional without JS/Tailwind. */
 :root {
   /* Light mode variables are now the default */

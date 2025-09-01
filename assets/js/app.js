@@ -113,7 +113,7 @@ function updatePageContent(data) {
   document.querySelector('#basics-name').textContent = data.basics.name;
   document.querySelector('#basics-title').textContent = data.basics.title;
   document.querySelector('#basics-summary').textContent = data.basics.summary;
-  document.querySelector('#basics-location').textContent = `${data.basics.location} · ${lang === 'es' ? 'Abierto a trabajo remoto en zonas de Europa y Estados Unidos' : 'Open to remote, EU/US time zones.'} `;
+  document.querySelector('#basics-location').textContent = `${data.basics.location} `;
 
   const emailLink = `mailto:${data.basics.email}?subject=Hiring%20Inquiry%20from%20your%20site&body=Hi%20${encodeURIComponent(data.basics.name)},%0D%0A`;
   document.querySelector('#hero-email-link').href = emailLink;
