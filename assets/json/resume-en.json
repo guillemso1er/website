@@ -1,0 +1,184 @@
+{
+  "meta": {
+    "version": "1.2",
+    "role_target": "Senior Backend Engineer — Fintech (Credit/Tokenization, Go/Java)",
+    "last_updated": "2025-08-29"
+  },
+  "basics": {
+    "name": "Guillem Soler Suetta",
+    "title": "Senior Backend Engineer — Fintech (Go/Java)",
+    "location": "Buenos Aires, Argentina (GMT-3) · Also open to remote work in Europe and the US",
+    "email": "guillem.soler@nexara.me",
+    "phone": "+54 11 7155 3784",
+    "linkedin": "https://www.linkedin.com/in/guillem-soler-suetta/",
+    "github": "https://github.com/guillemso1er",
+    "english_level": "Native",
+    "website": "https://guillemsoler.dev",
+    "summary": "Senior Backend Engineer (~10 years) focused on Go/Java services for fintech/e‑commerce. Build event‑driven microservices on AWS/K8s, with idempotent APIs, DDD/outbox/SAGA, and Postgres/DynamoDB. Pragmatic about reliability (SLIs/SLOs) and latency."
+  },
+  "skills": [
+    {
+      "category": "Languages",
+      "items": [
+        "Go",
+        "Java",
+        "TypeScript/Node.js",
+        "Python"
+      ]
+    },
+    {
+      "category": "Cloud & Infra",
+      "items": [
+        "AWS (Lambda, API GW, SQS/SNS, EKS)",
+        "Kubernetes (Helm/GitOps)",
+        "Terraform",
+        "CI/CD (GitHub Actions)"
+      ]
+    },
+    {
+      "category": "Data & Messaging",
+      "items": [
+        "PostgreSQL",
+        "DynamoDB",
+        "Kafka",
+        "Redis"
+      ]
+    },
+    {
+      "category": "Architecture & Reliability",
+      "items": [
+        "Event-driven",
+        "Idempotency",
+        "Outbox/SAGA",
+        "DDD",
+        "Observability (Prometheus/Grafana, OpenTelemetry)"
+      ]
+    },
+    {
+      "category": "Security",
+      "items": [
+        "PCI awareness",
+        "Tokenization",
+        "AWS KMS/Secrets",
+        "Audit logging"
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "company": "Actus AG",
+      "location": "Triesen, Liechtenstein (Hybrid/Remote)",
+      "title": "Senior Software Engineer",
+      "start": "Aug 2021",
+      "end": "Present",
+      "bullets": [
+        "Built backend services and automations to transform banking data and streamline accounting workflows (Go/Java/Node, Python).",
+        "Designed resilient APIs/jobs with retries and idempotency keys; improved correctness and reduced manual interventions.",
+        "Developed pipelines to normalize blockchain/Web3 transactions for tax/reporting, including reconciliation and FX rate handling.",
+        "Drove cloud automation with Terraform and CI/CD; added dashboards/alerts to improve deployment reliability and security baselines."
+      ]
+    },
+    {
+      "company": "HelloFresh",
+      "location": "Berlin, Germany",
+      "title": "Software Engineer",
+      "start": "Jan 2020",
+      "end": "Aug 2021",
+      "bullets": [
+        "Delivered customer and platform services (.NET/C#, React) backed by PostgreSQL and Kafka for event integrations.",
+        "Operated services on Kubernetes with Docker; used Helm and GitOps (Flux) for safe, repeatable releases.",
+        "Contributed IaC with Terraform and CI/CD to reduce lead time and improve rollout safety across environments."
+      ]
+    },
+    {
+      "company": "Wolters Kluwer",
+      "location": "Barcelona, Spain",
+      "title": "Full‑Stack Developer",
+      "start": "Aug 2017",
+      "end": "Dec 2019",
+      "bullets": [
+        "Built B2B features across Java/Spring and .NET with Angular; integrated Azure services for scale and reliability.",
+        "Implemented CI/CD, REST APIs and SQL optimizations to improve delivery and stability in an Agile team."
+      ]
+    },
+    {
+      "company": "Oxigen Salud",
+      "location": "Barcelona, Spain",
+      "title": "Web Software Developer",
+      "start": "May 2016",
+      "end": "Jul 2017",
+      "bullets": [
+        "Developed an MVC web app to monitor ambulance fleets (.NET, JavaScript, MS SQL) with real‑time GPS tracking."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Credit Authorization & Ledger (reference)",
+      "summary": "Go microservices with idempotent authorization, transactional outbox, SAGA orchestration, retries/DLQ and tracing.",
+      "tech": [
+        "Go",
+        "PostgreSQL or DynamoDB (local)",
+        "Kafka or SQS/SNS",
+        "Docker"
+      ],
+      "links": [
+        {
+          "label": "Repo",
+          "url": "https://github.com/YOUR-USER/credit-authorization-ledger"
+        }
+      ]
+    },
+    {
+      "name": "Tokenization Service (reference)",
+      "summary": "PAN/PII tokenization and detokenization with KMS‑managed keys, RBAC, audit logging and redaction. Designed to minimize PCI scope.",
+      "tech": [
+        "Node.js/TypeScript",
+        "AWS KMS (or Vault)",
+        "PostgreSQL",
+        "Docker"
+      ],
+      "links": [
+        {
+          "label": "Repo",
+          "url": "https://github.com/YOUR-USER/tokenization-service"
+        }
+      ]
+    }
+  ],
+    "testimonials": [
+    {
+      "quote": "Guillem is a highly pragmatic engineer who consistently delivered reliable, well-tested Go and Java services. His work on our data processing pipelines significantly reduced manual interventions and improved system correctness. He’s an asset to any team that values quality and ownership.",
+      "author": "— Philipp Wirtenberger, Head of Engineering at Actus AG"
+    },
+    {
+      "quote": "I had the pleasure of working with Guillem at HelloFresh. He has a deep understanding of event-driven architecture and Kubernetes, and he was my go-to person for complex infrastructure challenges. He’s a great collaborator who always seeks to elevate the team's skills.",
+      "author": "— Bruno Karin, Senior Platform Engineer at HelloFresh"
+    }
+  ],
+  "education": [
+    {
+      "institution": "Universidad Autónoma de Barcelona",
+      "degree": "Engineering — Telecommunications & Software",
+      "location": "Barcelona, Spain",
+      "start": "2012",
+      "end": "2016"
+    }
+  ],
+  "keywords": [],
+  "certifications": [],
+  "languages": [
+    {
+      "name": "Spanish",
+      "level": "Native"
+    },
+    {
+      "name": "Catalan",
+      "level": "Native"
+    },
+    {
+      "name": "English",
+      "level": "Native"
+    }
+  ]
+}

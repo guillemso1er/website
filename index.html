@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en" data-page="lang-gateway">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Select your language</title>
+    <meta name="description" content="Choose your language to view the portfolio of a software engineer." />
+    <link rel="canonical" href="/" />
+    <link rel="preload" href="/assets/css/base.css" as="style" />
+    <link rel="stylesheet" href="/assets/css/base.css" />
+    <meta name="theme-color" content="#0ea5e9" />
+    <style>
+        /* Minimal inlined for ultra-fast render of this one small page */
+        .lang-card {
+            max-width: 720px;
+            margin: 10vh auto;
+            padding: 2rem;
+            border-radius: 12px;
+            border: 1px solid var(--border);
+            background: var(--surface);
+        }
+
+        .lang-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+
+        .lang-link {
+            display: block;
+            text-align: center;
+            padding: 1rem 1.25rem;
+            border-radius: 10px;
+            border: 1px solid var(--border);
+            background: var(--bg);
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .lang-link:hover {
+            border-color: var(--primary);
+            color: var(--primary);
+        }
+    </style>
+</head>
+
+<body>
+    <main class="lang-card">
+        <h1 style="margin:0 0 .5rem 0;">Select your language</h1>
+        <p>Choose your preferred language below.</p>
+        <div class="lang-grid">
+            <a class="lang-link" href="/en/">English</a>
+            <a class="lang-link" href="/es/">Español</a>
+        </div>
+        <p style="margin-top:1rem; font-size:.9rem; color:var(--muted)">No JavaScript? No problem — pick a language
+            above.</p>
+    </main>
+    <script src="/assets/js/app.js" defer></script>
+</body>
+
+</html>

@@ -1,0 +1,184 @@
+{
+    "meta": {
+        "version": "1.2",
+        "role_target": "Ingeniero Backend Senior — Fintech (Crédito/Tokenización, Go/Java)",
+        "last_updated": "2025-08-29"
+    },
+    "basics": {
+        "name": "Guillem Soler Suetta",
+        "title": "Ingeniero Backend Senior — Fintech (Go/Java)",
+        "location": "Buenos Aires, Argentina (GMT-3) · Tambien abierto a trabajo remoto en zonas de Europa y Estados Unidos",
+        "email": "guillem.soler@nexara.me",
+        "phone": "+54 11 7155 3784",
+        "linkedin": "https://www.linkedin.com/in/guillem-soler-suetta/",
+        "github": "https://github.com/guillemso1er",
+        "english_level": "Native",
+        "website": "https://guillemsoler.dev",
+        "summary": "Ingeniero Backend Senior (~10 años) enfocado en servicios Go/Java para fintech/e‑commerce. Construyo microservicios basados en eventos en AWS/K8s, con APIs idempotentes, DDD/outbox/SAGA y Postgres/DynamoDB. Pragmático con respecto a la confiabilidad (SLIs/SLOs) y la latencia."
+    },
+    "skills": [
+        {
+            "category": "Lenguajes",
+            "items": [
+                "Go",
+                "Java",
+                "TypeScript/Node.js",
+                "Python"
+            ]
+        },
+        {
+            "category": "Cloud e Infraestructura",
+            "items": [
+                "AWS (Lambda, API GW, SQS/SNS, EKS)",
+                "Kubernetes (Helm/GitOps)",
+                "Terraform",
+                "CI/CD (GitHub Actions)"
+            ]
+        },
+        {
+            "category": "Datos y Mensajería",
+            "items": [
+                "PostgreSQL",
+                "DynamoDB",
+                "Kafka",
+                "Redis"
+            ]
+        },
+        {
+            "category": "Arquitectura y Confiabilidad",
+            "items": [
+                "Orientado a eventos",
+                "Idempotencia",
+                "Outbox/SAGA",
+                "DDD",
+                "Observabilidad (Prometheus/Grafana, OpenTelemetry)"
+            ]
+        },
+        {
+            "category": "Seguridad",
+            "items": [
+                "Conocimiento de PCI",
+                "Tokenización",
+                "AWS KMS/Secrets",
+                "Registro de auditoría"
+            ]
+        }
+    ],
+    "experience": [
+        {
+            "company": "Actus AG",
+            "location": "Triesen, Liechtenstein (Híbrido/Remoto)",
+            "title": "Ingeniero de Software Senior",
+            "start": "Ago 2021",
+            "end": "Actualidad",
+            "bullets": [
+                "Construí servicios backend y automatizaciones para transformar datos bancarios y agilizar flujos contables (Go/Java/Node, Python).",
+                "Diseñé APIs y jobs resilientes con reintentos y claves de idempotencia; mejoré la corrección y reduje intervenciones manuales.",
+                "Desarrollé pipelines para normalizar transacciones de blockchain/Web3 para impuestos/reportes, incluyendo conciliación y manejo de tipos de cambio (FX).",
+                "Impulsé automatización en la nube con Terraform y CI/CD; agregué dashboards/alertas para mejorar la confiabilidad de despliegues y las líneas base de seguridad."
+            ]
+        },
+        {
+            "company": "HelloFresh",
+            "location": "Berlín, Alemania",
+            "title": "Ingeniero de Software",
+            "start": "Ene 2020",
+            "end": "Ago 2021",
+            "bullets": [
+                "Entregué servicios de cliente y de plataforma (.NET/C#, React) respaldados por PostgreSQL y Kafka para integraciones por eventos.",
+                "Operé servicios en Kubernetes con Docker; utilicé Helm y GitOps (Flux) para despliegues seguros y repetibles.",
+                "Contribuí IaC con Terraform y CI/CD para reducir el tiempo de entrega (lead time) y mejorar la seguridad de los despliegues entre entornos."
+            ]
+        },
+        {
+            "company": "Wolters Kluwer",
+            "location": "Barcelona, España",
+            "title": "Desarrollador Full‑Stack",
+            "start": "Ago 2017",
+            "end": "Dic 2019",
+            "bullets": [
+                "Desarrollé funcionalidades B2B en Java/Spring y .NET con Angular; integré servicios de Azure para escalabilidad y confiabilidad.",
+                "Implementé CI/CD, APIs REST y optimizaciones SQL para mejorar la entrega y la estabilidad en un equipo Ágil."
+            ]
+        },
+        {
+            "company": "Oxigen Salud",
+            "location": "Barcelona, España",
+            "title": "Desarrollador de Software Web",
+            "start": "May 2016",
+            "end": "Jul 2017",
+            "bullets": [
+                "Desarrollé una aplicación web MVC para monitorear flotas de ambulancias (.NET, JavaScript, MS SQL) con seguimiento GPS en tiempo real."
+            ]
+        }
+    ],
+    "projects": [
+        {
+            "name": "Autorización de Crédito y Libro Mayor (referencia)",
+            "summary": "Microservicios en Go con autorización idempotente, outbox transaccional, orquestación SAGA, reintentos/DLQ y trazabilidad.",
+            "tech": [
+                "Go",
+                "PostgreSQL o DynamoDB (local)",
+                "Kafka o SQS/SNS",
+                "Docker"
+            ],
+            "links": [
+                {
+                    "label": "Repositorio",
+                    "url": "https://github.com/YOUR-USER/credit-authorization-ledger"
+                }
+            ]
+        },
+        {
+            "name": "Servicio de Tokenización (referencia)",
+            "summary": "Tokenización y detokenización de PAN/PII con claves gestionadas por KMS, RBAC, registro de auditoría y enmascaramiento. Diseñado para minimizar el alcance PCI.",
+            "tech": [
+                "Node.js/TypeScript",
+                "AWS KMS (o Vault)",
+                "PostgreSQL",
+                "Docker"
+            ],
+            "links": [
+                {
+                    "label": "Repositorio",
+                    "url": "https://github.com/YOUR-USER/tokenization-service"
+                }
+            ]
+        }
+    ],
+    "testimonials": [
+        {
+            "quote": "Guillem es un ingeniero muy pragmático que entregó consistentemente servicios fiables y bien probados en Go y Java. Su trabajo en nuestros pipelines de procesamiento de datos redujo significativamente las intervenciones manuales y mejoró la correctitud del sistema. Es un gran activo para cualquier equipo que valore la calidad y la responsabilidad.",
+            "author": "— Philipp Wirtenberger, Head of Engineering en Actus AG"
+        },
+        {
+            "quote": "Tuve el placer de trabajar con Guillem en HelloFresh. Tiene un profundo conocimiento de la arquitectura orientada a eventos y Kubernetes, y era mi persona de referencia para desafíos complejos de infraestructura. Es un gran colaborador que siempre busca elevar las habilidades del equipo.",
+            "author": "— Bruno Karin, Senior Platform Engineer en HelloFresh"
+        }
+    ],
+    "education": [
+        {
+            "institution": "Universidad Autónoma de Barcelona",
+            "degree": "Ingeniería — Telecomunicaciones y Software",
+            "location": "Barcelona, España",
+            "start": "2012",
+            "end": "2016"
+        }
+    ],
+    "keywords": [],
+    "certifications": [],
+    "languages": [
+        {
+            "name": "Español",
+            "level": "Nativo"
+        },
+        {
+            "name": "Catalán",
+            "level": "Nativo"
+        },
+        {
+            "name": "Inglés",
+            "level": "Nativo"
+        }
+    ]
+}
