@@ -8,7 +8,7 @@
         "name": "Guillem Soler Suetta",
         "title": "Ingeniero Backend Senior — Fintech (Go/Java)",
         "location": "Buenos Aires, Argentina (GMT-3) · Tambien abierto a trabajo remoto en zonas de Europa y Estados Unidos",
-        "email": "guillem.soler@nexara.me",
+        "email": "guillem@guillemsoler.dev",
         "phone": "+54 11 7155 3784",
         "linkedin": "https://www.linkedin.com/in/guillem-soler-suetta/",
         "github": "https://github.com/guillemso1er",
@@ -70,7 +70,7 @@
             "location": "Triesen, Liechtenstein (Híbrido/Remoto)",
             "title": "Ingeniero de Software Senior",
             "start": "Ago 2021",
-            "end": "Actualidad",
+            "end": "Jun 2025",
             "bullets": [
                 "Construí servicios backend y automatizaciones para transformar datos bancarios y agilizar flujos contables (Go/Java/Node, Python).",
                 "Diseñé APIs y jobs resilientes con reintentos y claves de idempotencia; mejoré la corrección y reduje intervenciones manuales.",

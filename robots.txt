@@ -1,56 +1,11 @@
-# ===================================================================
-# GREETINGS, ROBOTS!
-#
-# We welcome all well-behaved web crawlers to index our public content.
-# Please be respectful of our server resources.
-# ===================================================================
+# My custom rules
 
-# Allow all reputable crawlers full access to the site.
-# This is the default behavior, but explicitly stating it is good practice.
-User-agent: *
-Disallow:
-
-# Specifically welcome Google's main crawler.
+# Allow Google and other search engines to crawl everything.
 User-agent: Googlebot
 Disallow:
 
-# Specifically welcome Microsoft's Bing crawler.
-User-agent: Bingbot
+User-agent: *
 Disallow:
 
-# ===================================================================
-# CRAWLER DIRECTIVES
-#
-# The following rules apply to all crawlers (*).
-# Add any directories or files you want to hide from search results below.
-# Use with caution: Incorrectly disallowing content can harm your SEO.
-# ===================================================================
-
-User-agent: *
-
-# Disallow access to admin, login, and other sensitive areas.
-# These pages are not useful in search results and should be private.
-Disallow: /admin/
-Disallow: /login/
-Disallow: /wp-admin/ # If using WordPress
-Disallow: /account/
-
-# Disallow internal search results pages to avoid duplicate content.
-# Your site's own search functionality is for users, not for indexing.
-Disallow: /search/
-Disallow: /*?s=
-Disallow: /*?q=
-
-# Disallow temporary files, private directories, or scripts.
-Disallow: /tmp/
-Disallow: /private/
-Disallow: /cgi-bin/
-
-# ===================================================================
-# XML SITEMAP
-#
-# This directive points crawlers to your sitemap, helping them discover
-# all the important pages on your site more efficiently.
-# ===================================================================
-
-Sitemap: https://www.your-website.com/sitemap.xml
+# Point crawlers to my sitemap.
+Sitemap: https://guillemsoler.dev/sitemap.xml

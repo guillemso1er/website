@@ -8,7 +8,7 @@
     "name": "Guillem Soler Suetta",
     "title": "Senior Backend Engineer — Fintech (Go/Java)",
     "location": "Buenos Aires, Argentina (GMT-3) · Also open to remote work in Europe and the US",
-    "email": "guillem.soler@nexara.me",
+    "email": "guillem@guillemsoler.dev",
     "phone": "+54 11 7155 3784",
     "linkedin": "https://www.linkedin.com/in/guillem-soler-suetta/",
     "github": "https://github.com/guillemso1er",
@@ -70,7 +70,7 @@
       "location": "Triesen, Liechtenstein (Hybrid/Remote)",
       "title": "Senior Software Engineer",
       "start": "Aug 2021",
-      "end": "Present",
+      "end": "Jun 2025",
       "bullets": [
         "Built backend services and automations to transform banking data and streamline accounting workflows (Go/Java/Node, Python).",
         "Designed resilient APIs/jobs with retries and idempotency keys; improved correctness and reduced manual interventions.",
@@ -146,7 +146,7 @@
       ]
     }
   ],
-    "testimonials": [
+  "testimonials": [
     {
       "quote": "Guillem is a highly pragmatic engineer who consistently delivered reliable, well-tested Go and Java services. His work on our data processing pipelines significantly reduced manual interventions and improved system correctness. He’s an asset to any team that values quality and ownership.",
       "author": "— Philipp Wirtenberger, Head of Engineering at Actus AG"

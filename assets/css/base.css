@@ -29,14 +29,11 @@ html.dark:root {
   --shadow: 0 10px 30px rgba(0, 0, 0, .35);
 }
 
-html,
-body {
-  height: 100%;
-}
-
 html {
+  height: 100%;
   scroll-behavior: smooth;
 }
+
 
 body {
   margin: 0;
@@ -102,6 +99,8 @@ a:hover {
 .site-header .nav-link:hover {
   color: var(--primary);
 }
+
+
 
 .section {
   padding: 56px 0;
@@ -313,6 +312,27 @@ a:hover {
   margin-top: 1.25rem;
 }
 
+@media (min-width: 640px) {
+  #menuBtn {
+    display: none;
+  }
+}
+
+@media (max-width: 640px) {
+  #mobileNav:not([hidden]) {
+    display: block;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    background-color: var(--surface);
+    border-top: 1px solid var(--border);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    z-index: 20;
+    /* Ensure it's on top of other content */
+  }
+}
+
+
 .mt-6 {
   margin-top: 1.5rem;
 }
@@ -324,7 +344,7 @@ a:hover {
   }
 }
 
-site-header {
+.site-header {
   position: sticky;
   top: 0;
   z-index: 10;
