@@ -1,6 +1,6 @@
 // --- CONFIGURATION ---
 // Set the document language: "en" for English, "es" for Spanish.
-#let lang = "en"
+#let lang = "es"
 
 // Toggle "mode" to "ats" for a printer/ATS-safe variant.
 #let mode = "visual" // "visual" | "ats"
