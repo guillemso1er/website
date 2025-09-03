@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <style>
+    :root { color-scheme: light dark; --bg:#2563eb; } /* light: primary */
+    @media (prefers-color-scheme: dark) { :root { --bg:#0ea5e9; } } /* dark: primary */
+  </style>
+  <rect width="64" height="64" rx="12" fill="var(--bg)"/>
+  <!-- G glyph (ring with notch + bar), built as a single even-odd path for pixel-crisp scaling -->
+  <path fill="#ffffff" fill-rule="evenodd" d="
+    M 32 10
+    A 22 22 0 1 1 32 54
+    A 22 22 0 1 1 32 10
+    Z
+    M 32 20
+    A 12 12 0 1 0 32 44
+    A 12 12 0 1 0 32 20
+    Z
+    M 42 16 H 62 V 48 H 42 Z
+    M 28 28 H 46 V 36 H 28 Z
+  "/>
+</svg>
