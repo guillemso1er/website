@@ -1,0 +1,402 @@
+{
+  "meta": {
+    "schema": "linkedin_profile",
+    "schema_version": "1.0",
+    "source_version": "1.2",
+    "role_target": "Senior Backend Engineer — Fintech (Credit/Tokenization, Go/Java)",
+    "generated_at": "2025-09-02"
+  },
+  "profile": {
+    "name": "Guillem Soler Suetta",
+    "headline": "Senior Backend Engineer (Go/Java) | Fintech: Payments, Tokenization, Credit | Event‑Driven, AWS, Kubernetes | Reliability & Low‑Latency APIs",
+    "about": "I’m a Senior Backend Engineer (~10 years) specializing in Go and Java, building event‑driven microservices and low‑latency APIs for fintech and e‑commerce. I design for correctness and reliability first—idempotency, outbox/SAGA, SLIs/SLOs—on AWS and Kubernetes, backed by PostgreSQL, DynamoDB, Kafka, and Redis. My focus is turning messy financial data into correct, observable, and scalable systems.\n\nRecently at Actus AG, I built backend services and automations that transform banking data and streamline accounting workflows; designed resilient APIs and jobs with idempotency and retries; and developed pipelines to normalize blockchain/Web3 transactions for tax/reporting, including reconciliation and FX handling. I also drove Terraform‑based cloud automation, GitHub Actions CI/CD, and observability with Prometheus, Grafana, and OpenTelemetry.\n\nPreviously at HelloFresh, I delivered customer and platform services (.NET/C#, React) with PostgreSQL and Kafka integrations; operated services on Kubernetes with Docker, Helm, and GitOps (Flux); and contributed Terraform and CI/CD to reduce lead time and improve rollout safety. Earlier, I shipped B2B features at Wolters Kluwer (Java/Spring and .NET with Angular, on Azure) and built real‑time GPS tracking for ambulance fleets at Oxigen Salud.\n\nI’m looking for senior backend roles in fintech—payments, credit/authorization, tokenization, and ledgers—where reliability, security (PCI awareness, KMS/Secrets, audit logging), and strong engineering practices matter. Based in Buenos Aires (GMT‑3). Open to remote roles in Europe and the US.\n\nLet’s connect if you’re scaling Go/Java services and want pragmatic, production‑minded engineering.",
+    "industry": "Financial Services",
+    "location": {
+      "city": "Buenos Aires",
+      "region": "Buenos Aires",
+      "country": "Argentina",
+      "display": "Buenos Aires, Argentina"
+    },
+    "pronouns": null,
+    "photo_url": null,
+    "banner_url": null,
+    "vanity_url": "guillem-soler-suetta",
+    "website": "https://guillemsoler.dev"
+  },
+  "contact": {
+    "email": "guillem@guillemsoler.dev",
+    "phone": "+54 11 7155 3784",
+    "linkedin": "https://www.linkedin.com/in/guillem-soler-suetta/",
+    "github": "https://github.com/guillemso1er",
+    "website": "https://guillemsoler.dev",
+    "preferred_contact": "Email"
+  },
+  "open_to_work": {
+    "enabled": true,
+    "visibility": "Recruiters only",
+    "titles": [
+      "Senior Backend Engineer",
+      "Senior Software Engineer (Backend)",
+      "Backend Engineer",
+      "Software Engineer (Backend)"
+    ],
+    "locations": [
+      "Remote — Europe",
+      "Remote — United States",
+      "Buenos Aires, Argentina (Hybrid)"
+    ],
+    "workplace_types": [
+      "Remote",
+      "Hybrid"
+    ],
+    "employment_types": [
+      "Full-time",
+      "Contract"
+    ],
+    "industries": [
+      "Financial Services",
+      "Fintech",
+      "Information Technology & Services",
+      "E-commerce"
+    ],
+    "start_date": "Immediate"
+  },
+  "creator_mode": {
+    "enabled": true,
+    "topics": [
+      "#golang",
+      "#java",
+      "#microservices",
+      "#aws",
+      "#kubernetes",
+      "#fintech",
+      "#payments",
+      "#distributed-systems"
+    ]
+  },
+  "featured": [
+    {
+      "type": "link",
+      "title": "Portfolio website",
+      "url": "https://guillemsoler.dev",
+      "description": "About, projects, and contact"
+    },
+    {
+      "type": "link",
+      "title": "GitHub — guillemso1er",
+      "url": "https://github.com/guillemso1er",
+      "description": "Selected repos in Go, Java, and infra-as-code"
+    },
+    {
+      "type": "link",
+      "title": "Credit Authorization & Ledger (reference)",
+      "url": "https://github.com/guillemso1er/credit-authorization-ledger",
+      "description": "Go microservices with idempotent authorization, outbox, SAGA, retries/DLQ, tracing"
+    },
+    {
+      "type": "link",
+      "title": "Tokenization Service (reference)",
+      "url": "https://github.com/guillemso1er/tokenization-service",
+      "description": "PAN/PII tokenization with KMS‑managed keys, RBAC, audit logging and redaction"
+    }
+  ],
+  "experience": [
+    {
+      "company_name": "Actus AG",
+      "company_location": "Triesen, Liechtenstein (Hybrid/Remote)",
+      "title": "Senior Software Engineer",
+      "employment_type": "Full-time",
+      "start_date": "2021-08",
+      "end_date": "2025-06",
+      "is_current": false,
+      "description": "Built backend services and automations to transform banking data and streamline accounting workflows. Designed resilient APIs and jobs with idempotency and retries. Developed pipelines to normalize blockchain/Web3 transactions for tax/reporting (reconciliation, FX handling). Drove cloud automation and observability to improve deployment reliability and security baselines.",
+      "highlights": [
+        "Built backend services and automations to transform banking data and streamline accounting workflows (Go/Java/Node, Python).",
+        "Designed resilient APIs/jobs with retries and idempotency keys; improved correctness and reduced manual interventions.",
+        "Developed pipelines to normalize blockchain/Web3 transactions for tax/reporting, including reconciliation and FX rate handling.",
+        "Drove cloud automation with Terraform and CI/CD; added dashboards/alerts to improve deployment reliability and security baselines.",
+        "Implemented observability with Prometheus/Grafana and OpenTelemetry; defined SLIs/SLOs for reliability."
+      ],
+      "skills": [
+        "Go (Golang)",
+        "Java",
+        "TypeScript",
+        "Node.js",
+        "Python",
+        "PostgreSQL",
+        "DynamoDB",
+        "Apache Kafka",
+        "Redis",
+        "AWS",
+        "AWS Lambda",
+        "Amazon API Gateway",
+        "Amazon SQS",
+        "Amazon SNS",
+        "Amazon EKS",
+        "Kubernetes",
+        "Helm",
+        "GitOps",
+        "Terraform",
+        "GitHub Actions",
+        "Prometheus",
+        "Grafana",
+        "OpenTelemetry",
+        "Event-Driven Architecture",
+        "Idempotency",
+        "Outbox Pattern",
+        "SAGA Pattern",
+        "SLIs & SLOs",
+        "Audit Logging",
+        "AWS KMS",
+        "Tokenization",
+        "PCI DSS"
+      ],
+      "tech_stack": "Go, Java, Node.js/TypeScript, Python; PostgreSQL, DynamoDB, Kafka, Redis; AWS (Lambda, API Gateway, SQS/SNS, EKS), Kubernetes (Helm/GitOps), Terraform, GitHub Actions; Observability with Prometheus/Grafana and OpenTelemetry"
+    },
+    {
+      "company_name": "HelloFresh",
+      "company_location": "Berlin, Germany",
+      "title": "Software Engineer",
+      "employment_type": "Full-time",
+      "start_date": "2020-01",
+      "end_date": "2021-08",
+      "is_current": false,
+      "description": "Delivered customer and platform services (.NET/C#, React) backed by PostgreSQL and Kafka for event integrations. Operated services on Kubernetes with Docker; used Helm and GitOps (Flux) for safe, repeatable releases. Contributed IaC with Terraform and CI/CD to reduce lead time and improve rollout safety.",
+      "highlights": [
+        "Delivered customer and platform services (.NET/C#, React) backed by PostgreSQL and Kafka for event integrations.",
+        "Operated services on Kubernetes with Docker; used Helm and GitOps (Flux) for safe, repeatable releases.",
+        "Contributed IaC with Terraform and CI/CD to improve delivery speed and rollout safety across environments."
+      ],
+      "skills": [
+        ".NET",
+        "C#",
+        "React",
+        "PostgreSQL",
+        "Apache Kafka",
+        "Kubernetes",
+        "Docker",
+        "Helm",
+        "FluxCD",
+        "Terraform",
+        "CI/CD",
+        "GitOps"
+      ],
+      "tech_stack": ".NET/C#, React; PostgreSQL, Kafka; Kubernetes, Docker, Helm, Flux (GitOps); Terraform; CI/CD"
+    },
+    {
+      "company_name": "Wolters Kluwer",
+      "company_location": "Barcelona, Spain",
+      "title": "Full‑Stack Developer",
+      "employment_type": "Full-time",
+      "start_date": "2017-08",
+      "end_date": "2019-12",
+      "is_current": false,
+      "description": "Built B2B features across Java/Spring and .NET with Angular; integrated Azure services for scale and reliability. Implemented CI/CD, REST APIs, and SQL optimizations to improve delivery and stability in an Agile team.",
+      "highlights": [
+        "Built B2B features across Java/Spring and .NET with Angular; integrated Azure services for scale and reliability.",
+        "Implemented CI/CD, REST APIs and SQL optimizations to improve delivery and stability in an Agile team."
+      ],
+      "skills": [
+        "Java",
+        "Spring",
+        ".NET",
+        "Angular",
+        "Azure",
+        "REST APIs",
+        "CI/CD",
+        "SQL"
+      ],
+      "tech_stack": "Java/Spring, .NET, Angular; Azure; SQL; CI/CD"
+    },
+    {
+      "company_name": "Oxigen Salud",
+      "company_location": "Barcelona, Spain",
+      "title": "Web Software Developer",
+      "employment_type": "Full-time",
+      "start_date": "2016-05",
+      "end_date": "2017-07",
+      "is_current": false,
+      "description": "Developed an MVC web app to monitor ambulance fleets with real‑time GPS tracking.",
+      "highlights": [
+        "Developed an MVC web app to monitor ambulance fleets (.NET, JavaScript, MS SQL) with real‑time GPS tracking."
+      ],
+      "skills": [
+        ".NET",
+        "JavaScript",
+        "MS SQL",
+        "Real‑time Systems"
+      ],
+      "tech_stack": ".NET, JavaScript, MS SQL; real‑time GPS tracking"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Credit Authorization & Ledger (reference)",
+      "role": "Author",
+      "start_date": null,
+      "end_date": null,
+      "description": "Go microservices with idempotent authorization, transactional outbox, SAGA orchestration, retries/DLQ, and tracing.",
+      "url": "https://github.com/guillemso1er/credit-authorization-ledger",
+      "skills": [
+        "Go (Golang)",
+        "PostgreSQL",
+        "DynamoDB",
+        "Apache Kafka",
+        "Amazon SQS",
+        "Amazon SNS",
+        "Docker",
+        "Outbox Pattern",
+        "SAGA Pattern",
+        "Idempotency",
+        "Tracing"
+      ]
+    },
+    {
+      "name": "Tokenization Service (reference)",
+      "role": "Author",
+      "start_date": null,
+      "end_date": null,
+      "description": "PAN/PII tokenization and detokenization with KMS‑managed keys, RBAC, audit logging and redaction. Designed to minimize PCI scope.",
+      "url": "https://github.com/guillemso1er/tokenization-service",
+      "skills": [
+        "Node.js",
+        "TypeScript",
+        "AWS KMS",
+        "PostgreSQL",
+        "Docker",
+        "RBAC",
+        "Audit Logging",
+        "PCI DSS",
+        "Tokenization"
+      ]
+    }
+  ],
+  "skills": [
+    "Go (Golang)",
+    "Java",
+    "TypeScript",
+    "Node.js",
+    "Python",
+    "C#",
+    ".NET",
+    "React",
+    "AWS",
+    "AWS Lambda",
+    "Amazon API Gateway",
+    "Amazon SQS",
+    "Amazon SNS",
+    "Amazon EKS",
+    "AWS KMS",
+    "DynamoDB",
+    "PostgreSQL",
+    "Redis",
+    "Apache Kafka",
+    "Kubernetes",
+    "Helm",
+    "GitOps",
+    "FluxCD",
+    "Terraform",
+    "GitHub Actions",
+    "Docker",
+    "Microservices",
+    "Event-Driven Architecture",
+    "Domain-Driven Design (DDD)",
+    "Outbox Pattern",
+    "SAGA Pattern",
+    "Idempotency",
+    "REST APIs",
+    "CI/CD",
+    "Observability",
+    "Prometheus",
+    "Grafana",
+    "OpenTelemetry",
+    "Monitoring and Alerting",
+    "SLIs & SLOs",
+    "Distributed Systems",
+    "Reliability Engineering",
+    "FinTech",
+    "Payments",
+    "Tokenization",
+    "PCI DSS",
+    "Secrets Management",
+    "Audit Logging",
+    "Data Pipelines",
+    "Reconciliation"
+  ],
+  "top_skills": [
+    "Go (Golang)",
+    "AWS",
+    "Kubernetes"
+  ],
+  "recommendations_received": [
+    {
+      "from": {
+        "name": "Philipp Wirtenberger",
+        "title": "Head of Engineering",
+        "company": "Actus AG",
+        "relationship": "Manager"
+      },
+      "text": "Guillem is a highly pragmatic engineer who consistently delivered reliable, well-tested Go and Java services. His work on our data processing pipelines significantly reduced manual interventions and improved system correctness. He’s an asset to any team that values quality and ownership.",
+      "date": null
+    },
+    {
+      "from": {
+        "name": "Bruno Karin",
+        "title": "Senior Platform Engineer",
+        "company": "HelloFresh",
+        "relationship": "Coworker"
+      },
+      "text": "I had the pleasure of working with Guillem at HelloFresh. He has a deep understanding of event-driven architecture and Kubernetes, and he was my go-to person for complex infrastructure challenges. He’s a great collaborator who always seeks to elevate the team's skills.",
+      "date": null
+    }
+  ],
+  "education": [
+    {
+      "school": "Universidad Autónoma de Barcelona",
+      "degree": "Engineering — Telecommunications & Software",
+      "field_of_study": "Telecommunications & Software",
+      "location": "Barcelona, Spain",
+      "start_year": 2012,
+      "end_year": 2016,
+      "description": null
+    }
+  ],
+  "certifications": [],
+  "languages": [
+    {
+      "name": "Spanish",
+      "proficiency": "Native or bilingual"
+    },
+    {
+      "name": "Catalan",
+      "proficiency": "Native or bilingual"
+    },
+    {
+      "name": "English",
+      "proficiency": "Native or bilingual"
+    }
+  ],
+  "volunteering": [],
+  "publications": [],
+  "awards": [],
+  "organizations": [],
+  "interests": {
+    "topics": [
+      "Fintech",
+      "Payments",
+      "Distributed Systems",
+      "Go",
+      "Java",
+      "AWS",
+      "Kubernetes",
+      "Observability"
+    ]
+  },
+  "privacy": {
+    "open_to_work_flair": false,
+    "profile_visibility": "Public",
+    "contact_info_visibility": "Connections",
+    "allow_inmail": true,
+    "allow_follow": true
+  }
+}
