@@ -218,10 +218,18 @@ a:hover {
   border: 1px solid var(--border);
   border-radius: 1rem;
   background: var(--surface);
+  height: 100%;
+    display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 
 .card-body {
   padding: 1rem 1.15rem;
+    display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-grow: 1
 }
 
 .card-link {

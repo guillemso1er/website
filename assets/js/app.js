@@ -138,10 +138,15 @@ function updatePageContent(data) {
     article.className = 'card';
     article.innerHTML = `
                     <div class="card-body">
+                    <div>
                         <h3 class="h3"><a href="${project.links[0].url}" class="card-link">${project.name}</a></h3>
                         <p>${project.summary}</p>
                         <ul class="tags">${project.tech.map(t => `<li class="tag">${t}</li>`).join('')}</ul>
-                        <p class="muted"><a href="${project.links[0].url}" class="text-link">${project.links[0].label}</a>.</p>
+                        </div>
+                        <div class="mt-5">
+                                  <a href="${project.links[0].url}"
+                                    class="btn btn-secondary w-full">${project.links[0].label}</a>
+                            </div>
                     </div>`;
     projectsContainer.appendChild(article);
   });
